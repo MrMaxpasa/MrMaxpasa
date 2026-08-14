@@ -38,8 +38,8 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 <div align="center">
 
-<img src="metrics/general.svg" width="48%" alt="Ficha general de actividad"/>
-<img src="metrics/languages.svg" width="48%" alt="Lenguajes más usados"/>
+<!-- <img src="metrics/general.svg" width="48%" alt="Ficha general de actividad"/>
+<img src="metrics/languages.svg" width="48%" alt="Lenguajes más usados"/> -->
 
 <br/>
 
