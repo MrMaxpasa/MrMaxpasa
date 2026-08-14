@@ -8,7 +8,7 @@
 
 ### I · Nota del catálogo
 
-Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para durar: código legible, decisiones documentadas y despliegues que no dependen de la memoria de nadie. Me interesa el punto donde el desarrollo deja de ser automatizable y pasa a ser oficio.
+Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para durar: código legible, decisiones documentadas y despliegues que no dependen de la memoria de nadie. 
 
 <div align="center">
 
