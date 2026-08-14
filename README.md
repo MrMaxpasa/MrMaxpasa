@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:3D2B1F,100:0A0A0A&height=220&section=header&text=MrMaxpasa&fontColor=D4AF37&fontSize=58&fontAlignY=38&desc=%E2%98%A5%20Guardi%C3%A1n%20de%20Anubis%20%C2%B7%20Ingenier%C3%ADa%20de%20Software%20%E2%98%A5&descAlignY=62&descSize=17&descColor=F5E6C8&animation=fadeIn" width="100%"/>
+<img src="assets/anubis-banner.svg" width="100%"/>
 
 </div>
 
@@ -18,14 +18,7 @@
 
 </div>
 
-<div align="center">
-
-> *"En la Sala de las Dos Verdades, Anubis pesa cada corazón contra la pluma de Maat."*
-> *"Yo peso cada línea de código antes de que cruce a producción."*
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,50:D4AF37,100:0A0A0A&height=3&width=1000" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 ### Sobre mí
 
@@ -38,7 +31,7 @@ Ingeniero/a de software con la precisión de un embalsamador y la disciplina de 
 | **Filosofía** | Código limpio, o el caos del Duat |
 | **Referente mitológico** | Anubis — dios del embalsamamiento, la muerte y el tránsito a la otra vida |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,50:D4AF37,100:0A0A0A&height=3&width=1000" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 ### Stack Tecnológico
 
@@ -50,7 +43,7 @@ Ingeniero/a de software con la precisión de un embalsamador y la disciplina de 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,50:D4AF37,100:0A0A0A&height=3&width=1000" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 ### La Balanza de Maat — Estadísticas
 
@@ -67,7 +60,7 @@ Ingeniero/a de software con la precisión de un embalsamador y la disciplina de 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,50:D4AF37,100:0A0A0A&height=3&width=1000" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 ### El Sendero del Duat — Actividad anual
 
@@ -77,7 +70,7 @@ Ingeniero/a de software con la precisión de un embalsamador y la disciplina de 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,50:D4AF37,100:0A0A0A&height=3&width=1000" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 ### Logros
 
@@ -87,7 +80,7 @@ Ingeniero/a de software con la precisión de un embalsamador y la disciplina de 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,50:D4AF37,100:0A0A0A&height=3&width=1000" width="100%"/>
+<img src="assets/divider.svg" width="100%"/>
 
 ### Contacto
 
@@ -99,4 +92,4 @@ Ingeniero/a de software con la precisión de un embalsamador y la disciplina de 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:3D2B1F,100:0A0A0A&height=120&section=footer" width="100%"/>
+<img src="assets/anubis-footer.svg" width="100%"/>
