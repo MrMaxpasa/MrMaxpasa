@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="MrMaxpasa — Ingeniería de software"/>
+<img src="assets/piramide.png" width="100%" alt="MrMaxpasa — Ingeniería de software"/>
 
 </div>
 
@@ -8,18 +8,17 @@
 
 ### I · Nota del catálogo
 
-Ingeniero de software. Construyo sistemas pensados para durar: código legible, decisiones documentadas y despliegues que no dependen de la memoria de nadie. Me interesa el punto donde la ingeniería deja de ser automatizable y pasa a ser oficio.
+Desarrolladora de aplicaciones multiplataforma. Construyo apps pensadas para durar: código legible, decisiones documentadas y despliegues que no dependen de la memoria de nadie. Me interesa el punto donde el desarrollo deja de ser automatizable y pasa a ser oficio.
 
 <div align="center">
 
 | | |
 |:--|:--|
-| **Rol** | Ingeniería de software |
-| **Enfoque** | *por completar — tu especialidad o dominio* |
-| **Herramienta principal** | *por completar — lenguaje o stack del día a día* |
-| **Ubicación** | *por completar* |
-| **Idiomas** | Español · English |
-| **Divisa** | Nada cruza a producción sin ser pesado antes |
+| **Rol** | Developer multiplataforma |
+| **Enfoque** | Apps multiplataforma — para poder trabajar desde cualquier rincón del mundo |
+| **Herramienta principal** | JavaScript/TypeScript · React · Node.js · Python · Kotlin · C# · SQL/NoSQL — full stack, de la base de datos a la interfaz |
+| **Ubicación** | Remoto — donde haya wifi, y si no, datos |
+| **Idiomas** | Español · English · Français · Català |
 
 </div>
 
