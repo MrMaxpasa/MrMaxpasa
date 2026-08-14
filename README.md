@@ -8,7 +8,7 @@
 
 ### I · Nota del catálogo
 
-Desarrolladora de aplicaciones multiplataforma. Construyo apps pensadas para durar: código legible, decisiones documentadas y despliegues que no dependen de la memoria de nadie. Me interesa el punto donde el desarrollo deja de ser automatizable y pasa a ser oficio.
+Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para durar: código legible, decisiones documentadas y despliegues que no dependen de la memoria de nadie. Me interesa el punto donde el desarrollo deja de ser automatizable y pasa a ser oficio.
 
 <div align="center">
 
@@ -28,7 +28,7 @@ Desarrolladora de aplicaciones multiplataforma. Construyo apps pensadas para dur
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,git,github,docker&theme=dark" alt="Stack tecnológico"/>
+<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,kotlin,cs,dotnet,postgres,mongodb,git,docker&theme=dark" alt="Stack tecnológico"/>
 
 </div>
 
@@ -86,15 +86,15 @@ Desarrolladora de aplicaciones multiplataforma. Construyo apps pensadas para dur
 
 <br/>
 
-**Sobre la cartela.** El banner, los filetes y el pie son SVG propios en `assets/`, no servicios externos: se cargan siempre, no dependen de que un tercero siga en pie y usan `#0d1117` de fondo para fundirse con el modo oscuro de GitHub.
+**Sobre la cartela.** El banner es una lámina propia (`assets/piramide.png`); los filetes y el pie son SVG propios. Nada de esto son servicios externos: se cargan siempre, no dependen de que un tercero siga en pie y llevan `#0d1117` de fondo para fundirse sin costuras con el modo oscuro de GitHub.
 
 **Paleta.** Oro `#D4AF37` · oro claro `#F3D77A` · arena `#F5E6C8` · carbón `#0d1117`.
 
-**Tipografía.** Georgia con reserva a Times New Roman y Liberation Serif. La renderiza el navegador de quien mire el perfil, así que en sistemas sin ninguna de las tres caerá a la serif por defecto.
+**Tipografía.** En los SVG, Georgia con reserva a Times New Roman y Liberation Serif. La renderiza el navegador de quien mire el perfil, así que en sistemas sin ninguna de las tres caerá a la serif por defecto. El texto del banner va incrustado en la imagen, así que ahí no depende de nada.
 
 **La serpiente.** La genera `.github/workflows/snake.yml` con [Platane/snk](https://github.com/Platane/snk) y se publica en la rama `output`. Corre cada noche a las 03:00 UTC y se puede lanzar a mano desde la pestaña *Actions*.
 
-**Pendiente.** Rellenar los tres campos marcados como *por completar* en la sección I, ajustar la lista `i=` de skillicons con tu stack real ([iconos disponibles](https://skillicons.dev)) y poner los enlaces de Discord y X, que ahora apuntan a `#`.
+**Pendiente.** Poner los enlaces de Discord y X en la sección VI, que ahora apuntan a `#`.
 
 </details>
 
