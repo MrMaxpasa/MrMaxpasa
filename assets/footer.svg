@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="MrMaxpasa - MMXXVI">
+
+  <rect width="1200" height="120" fill="#0d1117"/>
+
+  <g stroke="#D4AF37" stroke-linecap="round">
+    <path d="M60 34 L556 34" stroke-width="1.1" opacity="0.5"/>
+    <path d="M60 39 L556 39" stroke-width="0.6" opacity="0.25"/>
+    <path d="M644 34 L1140 34" stroke-width="1.1" opacity="0.5"/>
+    <path d="M644 39 L1140 39" stroke-width="0.6" opacity="0.25"/>
+  </g>
+
+  <g fill="none" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round" opacity="0.85">
+    <ellipse cx="600" cy="26" rx="7" ry="8.5"/>
+    <path d="M600 34.5 L600 49"/>
+    <path d="M586 38 L614 38"/>
+  </g>
+
+  <text x="602" y="82" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Liberation Serif', serif" font-size="14" letter-spacing="5" fill="#F5E6C8" opacity="0.55">PESADO CONTRA LA PLUMA DE MAAT</text>
+
+  <text x="603" y="104" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Liberation Serif', serif" font-size="13" letter-spacing="6" fill="#D4AF37" opacity="0.6">MRMAXPASA &#183; MMXXVI</text>
+
+</svg>

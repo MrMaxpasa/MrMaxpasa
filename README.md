@@ -1,95 +1,102 @@
 <div align="center">
 
-<img src="assets/anubis-banner.svg" width="100%"/>
+<img src="assets/banner.svg" width="100%" alt="MrMaxpasa — Ingeniería de software"/>
 
 </div>
+
+<img src="assets/rule.svg" width="100%" alt=""/>
+
+### I · Nota del catálogo
+
+Ingeniero de software. Construyo sistemas pensados para durar: código legible, decisiones documentadas y despliegues que no dependen de la memoria de nadie. Me interesa el punto donde la ingeniería deja de ser automatizable y pasa a ser oficio.
 
 <div align="center">
-
-```
-╔══════════════════════════════════════════════╗
-║                                              ║
-║               ☥   A N U B I S   ☥            ║
-║                                              ║
-║         Guardián del Inframundo Digital      ║
-║                                              ║
-╚══════════════════════════════════════════════╝
-```
-
-</div>
-
-<img src="assets/divider.svg" width="100%"/>
-
-### Sobre mí
-
-Ingeniero/a de software con la precisión de un embalsamador y la disciplina de un guardián del Duat. Guío cada proyecto desde su concepción hasta su despliegue, cuidando que nada se pierda en el camino.
 
 | | |
-|---|---|
-| **Rol** | Ingeniero/a de Software |
-| **Enfoque actual** | *(completa con tu stack o especialidad)* |
-| **Filosofía** | Código limpio, o el caos del Duat |
-| **Referente mitológico** | Anubis — dios del embalsamamiento, la muerte y el tránsito a la otra vida |
-
-<img src="assets/divider.svg" width="100%"/>
-
-### Stack Tecnológico
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,git,github,docker&theme=dark" />
-
-*(edita la lista `i=` en el enlace con tus tecnologías reales — [ver iconos disponibles](https://skillicons.dev))*
+|:--|:--|
+| **Rol** | Ingeniería de software |
+| **Enfoque** | *por completar — tu especialidad o dominio* |
+| **Herramienta principal** | *por completar — lenguaje o stack del día a día* |
+| **Ubicación** | *por completar* |
+| **Idiomas** | Español · English |
+| **Divisa** | Nada cruza a producción sin ser pesado antes |
 
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/rule.svg" width="100%" alt=""/>
 
-### La Balanza de Maat — Estadísticas
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=MrMaxpasa&show_icons=true&bg_color=0A0A0A&title_color=D4AF37&icon_color=F5E6C8&text_color=F5E6C8&border_color=8B6F47&hide_border=false&count_private=true" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrMaxpasa&layout=compact&bg_color=0A0A0A&title_color=D4AF37&text_color=F5E6C8&border_color=8B6F47&hide_border=false" width="48%"/>
-
-</div>
+### II · Instrumental
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=MrMaxpasa&background=0A0A0A&stroke=8B6F47&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=F5E6C8&currStreakNum=F5E6C8&sideNums=F5E6C8&dates=8B6F47&hide_border=false" width="70%"/>
+<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,python,git,github,docker&theme=dark" alt="Stack tecnológico"/>
 
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/rule.svg" width="100%" alt=""/>
 
-### El Sendero del Duat — Actividad anual
+### III · Registro
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MrMaxpasa/MrMaxpasa/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=MrMaxpasa&show_icons=true&count_private=true&hide_border=false&border_radius=0&bg_color=0d1117&title_color=D4AF37&icon_color=F3D77A&text_color=F5E6C8&border_color=D4AF37" width="48%" alt="Estadísticas de GitHub"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrMaxpasa&layout=compact&hide_border=false&border_radius=0&bg_color=0d1117&title_color=D4AF37&text_color=F5E6C8&border_color=D4AF37" width="48%" alt="Lenguajes más usados"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=MrMaxpasa&hide_border=false&border_radius=0&background=0d1117&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=F3D77A&currStreakLabel=D4AF37&sideLabels=F5E6C8&currStreakNum=F5E6C8&sideNums=F5E6C8&dates=F5E6C8" width="70%" alt="Racha de contribuciones"/>
 
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/rule.svg" width="100%" alt=""/>
 
-### Logros
+### IV · Estratigrafía
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=MrMaxpasa&theme=onedark&no-frame=true&row=1&column=6&margin-w=8&margin-h=8" width="90%"/>
+<img src="https://raw.githubusercontent.com/MrMaxpasa/MrMaxpasa/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribuciones del último año"/>
 
 </div>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/rule.svg" width="100%" alt=""/>
 
-### Contacto
+### V · Hallazgos
 
 <div align="center">
 
-<a href="https://github.com/MrMaxpasa"><img src="https://img.shields.io/badge/GitHub-0A0A0A?style=for-the-badge&logo=github&logoColor=D4AF37&labelColor=0A0A0A&color=8B6F47" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=D4AF37&labelColor=0A0A0A&color=8B6F47" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Twitter-0A0A0A?style=for-the-badge&logo=x&logoColor=D4AF37&labelColor=0A0A0A&color=8B6F47" /></a>
+<img src="https://github-profile-trophy.vercel.app/?username=MrMaxpasa&no-frame=true&no-bg=true&row=1&column=6&margin-w=8&margin-h=8&title_color=D4AF37&text_color=F5E6C8" width="90%" alt="Trofeos"/>
 
 </div>
 
-<img src="assets/anubis-footer.svg" width="100%"/>
+<img src="assets/rule.svg" width="100%" alt=""/>
+
+### VI · Correspondencia
+
+<div align="center">
+
+<a href="https://github.com/MrMaxpasa"><img src="https://img.shields.io/badge/GitHub-D4AF37?style=for-the-badge&logo=github&logoColor=F5E6C8&labelColor=0d1117" alt="GitHub"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Discord-D4AF37?style=for-the-badge&logo=discord&logoColor=F5E6C8&labelColor=0d1117" alt="Discord"/></a>
+<a href="#"><img src="https://img.shields.io/badge/X-D4AF37?style=for-the-badge&logo=x&logoColor=F5E6C8&labelColor=0d1117" alt="X"/></a>
+
+</div>
+
+<br/>
+
+<details>
+<summary><b>Notas de excavación</b></summary>
+
+<br/>
+
+**Sobre la cartela.** El banner, los filetes y el pie son SVG propios en `assets/`, no servicios externos: se cargan siempre, no dependen de que un tercero siga en pie y usan `#0d1117` de fondo para fundirse con el modo oscuro de GitHub.
+
+**Paleta.** Oro `#D4AF37` · oro claro `#F3D77A` · arena `#F5E6C8` · carbón `#0d1117`.
+
+**Tipografía.** Georgia con reserva a Times New Roman y Liberation Serif. La renderiza el navegador de quien mire el perfil, así que en sistemas sin ninguna de las tres caerá a la serif por defecto.
+
+**La serpiente.** La genera `.github/workflows/snake.yml` con [Platane/snk](https://github.com/Platane/snk) y se publica en la rama `output`. Corre cada noche a las 03:00 UTC y se puede lanzar a mano desde la pestaña *Actions*.
+
+**Pendiente.** Rellenar los tres campos marcados como *por completar* en la sección I, ajustar la lista `i=` de skillicons con tu stack real ([iconos disponibles](https://skillicons.dev)) y poner los enlaces de Discord y X, que ahora apuntan a `#`.
+
+</details>
+
+<img src="assets/footer.svg" width="100%" alt=""/>

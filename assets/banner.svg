@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="MrMaxpasa - Ingenieria de software">
+
+  <defs>
+    <linearGradient id="oro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3D77A"/>
+      <stop offset="0.55" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#A8822C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="#0d1117"/>
+
+  <rect x="18" y="18" width="1164" height="264" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.55"/>
+  <rect x="27" y="27" width="1146" height="246" fill="none" stroke="#D4AF37" stroke-width="0.75" opacity="0.28"/>
+
+  <g fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M172 246 C169 226 168 207 170 189 C172 167 172 148 182 133 L196 119 L189 60 L223 112 L237 110 L247 54 L268 118 C278 126 286 138 292 151 L316 166 C322 170 322 176 316 179 L292 184 C280 186 268 188 258 194 C244 202 232 212 226 226 C222 234 220 240 219 246"/>
+    <path d="M172 246 Q196 258 219 246"/>
+    <path d="M198 116 L195 79 L213 108" stroke-width="1.1" opacity="0.75"/>
+    <path d="M245 110 L249 74 L260 110" stroke-width="1.1" opacity="0.75"/>
+    <path d="M305 172 L312 171" stroke-width="1.1" opacity="0.8"/>
+    <path d="M296 181 L312 178" stroke-width="1.1" opacity="0.5"/>
+    <path d="M175 231 Q196 240 218 231" stroke-width="1.1" opacity="0.5"/>
+  </g>
+  <path d="M259 152 C265 145 272 145 277 152 C272 158 265 158 259 152 Z" fill="#D4AF37" opacity="0.9"/>
+
+  <path d="M370 82 L370 218" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+
+  <text x="775" y="112" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Liberation Serif', serif" font-size="15" letter-spacing="6" fill="#D4AF37" opacity="0.8">ANUBIS &#183; GUARDI&#193;N DEL UMBRAL</text>
+
+  <text x="778" y="188" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Liberation Serif', serif" font-size="64" letter-spacing="14" fill="url(#oro)">MRMAXPASA</text>
+
+  <path d="M520 208 L1030 208" stroke="#D4AF37" stroke-width="1.2" opacity="0.5"/>
+  <path d="M520 213 L1030 213" stroke="#D4AF37" stroke-width="0.6" opacity="0.28"/>
+
+  <text x="775" y="243" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Liberation Serif', serif" font-size="18" letter-spacing="7" fill="#F5E6C8" opacity="0.8">INGENIER&#205;A DE SOFTWARE</text>
+
+</svg>
