@@ -38,8 +38,8 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MrMaxpasa&show_icons=true&count_private=true&hide_border=false&border_radius=0&bg_color=0d1117&title_color=D4AF37&icon_color=F3D77A&text_color=F5E6C8&border_color=D4AF37" width="48%" alt="Estadísticas de GitHub"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrMaxpasa&layout=compact&hide_border=false&border_radius=0&bg_color=0d1117&title_color=D4AF37&text_color=F5E6C8&border_color=D4AF37" width="48%" alt="Lenguajes más usados"/>
+<img src="metrics/general.svg" width="48%" alt="Ficha general de actividad"/>
+<img src="metrics/languages.svg" width="48%" alt="Lenguajes más usados"/>
 
 <br/>
 
@@ -93,6 +93,8 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 **Tipografía.** En los SVG, Georgia con reserva a Times New Roman y Liberation Serif. La renderiza el navegador de quien mire el perfil, así que en sistemas sin ninguna de las tres caerá a la serif por defecto. El texto del banner va incrustado en la imagen, así que ahí no depende de nada.
 
 **La serpiente.** La genera `.github/workflows/snake.yml` con [Platane/snk](https://github.com/Platane/snk) y se publica en la rama `output`. Corre cada noche a las 03:00 UTC y se puede lanzar a mano desde la pestaña *Actions*.
+
+**Las estadísticas.** Las genera `.github/workflows/metrics.yml` con [lowlighter/metrics](https://github.com/lowlighter/metrics) y quedan commiteadas en `metrics/` dentro del propio repo, a las 03:30 UTC. Se sirven desde aquí, así que no dependen de ningún servicio externo en el momento de cargar el perfil. La racha sí es externa (`streak-stats.demolab.com`).
 
 **Pendiente.** Poner los enlaces de Discord y X en la sección VI, que ahora apuntan a `#`.
 

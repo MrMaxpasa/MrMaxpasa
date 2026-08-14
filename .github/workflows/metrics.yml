@@ -1,0 +1,49 @@
+name: Tarjetas de estadisticas
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "metrics/**"
+
+jobs:
+  tarjetas:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Ficha general
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: metrics/general.svg
+          base: header, activity, community, repositories
+          config_timezone: Europe/Madrid
+          config_theme: dark
+          extras_css: |
+            h2 { color: #D4AF37 !important; }
+            .field, .field a, .row, span { color: #F5E6C8 !important; }
+
+      - name: Lenguajes mas usados
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: metrics/languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          config_timezone: Europe/Madrid
+          config_theme: dark
+          extras_css: |
+            h2 { color: #D4AF37 !important; }
+            .field, .field a, .row, span { color: #F5E6C8 !important; }
