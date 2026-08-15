@@ -58,7 +58,7 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=MrMaxpasa&no-frame=true&no-bg=true&row=1&column=6&margin-w=8&margin-h=8&title_color=D4AF37&text_color=F5E6C8" width="90%" alt="Trofeos"/>
+<img src="assets/hallazgos.svg" width="100%" alt="Repositorios, commits, pull requests, estrellas, lenguaje más repetido y año de alta"/>
 
 </div>
 
@@ -88,6 +88,8 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 **Tipografía.** En los SVG, Georgia con reserva a Times New Roman y Liberation Serif. La renderiza el navegador de quien mire el perfil, así que en sistemas sin ninguna de las tres caerá a la serif por defecto. El texto del banner va incrustado en la imagen, así que ahí no depende de nada.
 
 **La serpiente.** La genera `.github/workflows/snake.yml` con [Platane/snk](https://github.com/Platane/snk) y se publica en la rama `output`. Corre cada noche a las 03:00 UTC y se puede lanzar a mano desde la pestaña *Actions*.
+
+**Los hallazgos.** La lámina de la sección V la dibuja `.github/workflows/hallazgos.yml` con un script propio (`.github/scripts/hallazgos.mjs`, sin dependencias) y queda commiteada en `assets/hallazgos.svg` a las 03:30 UTC. Las cifras salen de la API de GitHub y se sirven desde aquí, así que no dependen de nadie al cargar el perfil. Antes había trofeos de un servicio externo que acabó cayéndose.
 
 **La racha.** Es externa (`streak-stats.demolab.com`): se calcula al vuelo cada vez que alguien abre el perfil, así que depende de que ese servicio siga en pie. Es la única pieza de la sección III que no vive en este repo.
 
