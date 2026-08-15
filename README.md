@@ -38,11 +38,6 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 <div align="center">
 
-<!-- <img src="metrics/general.svg" width="48%" alt="Ficha general de actividad"/>
-<img src="metrics/languages.svg" width="48%" alt="Lenguajes más usados"/> -->
-
-<br/>
-
 <img src="https://streak-stats.demolab.com?user=MrMaxpasa&hide_border=false&border_radius=0&background=0d1117&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=F3D77A&currStreakLabel=D4AF37&sideLabels=F5E6C8&currStreakNum=F5E6C8&sideNums=F5E6C8&dates=F5E6C8" width="70%" alt="Racha de contribuciones"/>
 
 </div>
@@ -94,7 +89,7 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 **La serpiente.** La genera `.github/workflows/snake.yml` con [Platane/snk](https://github.com/Platane/snk) y se publica en la rama `output`. Corre cada noche a las 03:00 UTC y se puede lanzar a mano desde la pestaña *Actions*.
 
-**Las estadísticas.** Las genera `.github/workflows/metrics.yml` con [lowlighter/metrics](https://github.com/lowlighter/metrics) y quedan commiteadas en `metrics/` dentro del propio repo, a las 03:30 UTC. Se sirven desde aquí, así que no dependen de ningún servicio externo en el momento de cargar el perfil. La racha sí es externa (`streak-stats.demolab.com`).
+**La racha.** Es externa (`streak-stats.demolab.com`): se calcula al vuelo cada vez que alguien abre el perfil, así que depende de que ese servicio siga en pie. Es la única pieza de la sección III que no vive en este repo.
 
 **Pendiente.** Poner los enlaces de Discord y X en la sección VI, que ahora apuntan a `#`.
 
