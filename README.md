@@ -58,7 +58,7 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 <div align="center">
 
-<img src="assets/hallazgos.svg" width="100%" alt="Repositorios, commits, pull requests, estrellas, lenguaje más repetido y año de alta"/>
+<img src="assets/hallazgosbanner.png" width="100%" alt="Tres estelas: Premio Nacional (Andorra), Full Stack Developer (4Geeks Academy) y Batxillerat Professional — Tècnic de Suport en Desenvolupament de Programari"/>
 
 </div>
 
@@ -91,7 +91,7 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 **La serpiente.** La genera `.github/workflows/snake.yml` con [Platane/snk](https://github.com/Platane/snk) y se publica en la rama `output`. Corre cada noche a las 03:00 UTC y se puede lanzar a mano desde la pestaña *Actions*.
 
-**Los hallazgos.** La lámina de la sección V la dibuja `.github/workflows/hallazgos.yml` con un script propio (`.github/scripts/hallazgos.mjs`, sin dependencias) y queda commiteada en `assets/hallazgos.svg` a las 03:30 UTC. Las cifras salen de la API de GitHub y se sirven desde aquí, así que no dependen de nadie al cargar el perfil. Antes había trofeos de un servicio externo que acabó cayéndose.
+**Los hallazgos.** La lámina de la sección V es una imagen propia (`assets/hallazgosbanner.png`): distinciones, que no cambian solas y por tanto no necesitan ni API ni workflow. Su negro original era `#0a090b` y se desplazó a `#0d1117` para que funda con el modo oscuro sin recuadro; el ajuste se aplica con todo su peso al fondo y se desvanece según el píxel se aclara, así que los trazos dorados quedaron intactos. Antes hubo aquí trofeos de un servicio externo que acabó cayéndose, y después cifras generadas por un workflow.
 
 **La racha.** Es externa (`streak-stats.demolab.com`): se calcula al vuelo cada vez que alguien abre el perfil, así que depende de que ese servicio siga en pie. Es la única pieza de la sección III que no vive en este repo.
 
