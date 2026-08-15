@@ -68,9 +68,9 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 <div align="center">
 
-<a href="https://github.com/MrMaxpasa"><img src="https://img.shields.io/badge/GitHub-D4AF37?style=for-the-badge&logo=github&logoColor=F5E6C8&labelColor=0d1117" alt="GitHub"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Discord-D4AF37?style=for-the-badge&logo=discord&logoColor=F5E6C8&labelColor=0d1117" alt="Discord"/></a>
-<a href="#"><img src="https://img.shields.io/badge/X-D4AF37?style=for-the-badge&logo=x&logoColor=F5E6C8&labelColor=0d1117" alt="X"/></a>
+<a href="https://github.com/MrMaxpasa"><img src="assets/btn_github.png" width="31%" alt="GitHub"/></a>
+<img src="assets/btn_instagram.png" width="31%" alt="Instagram"/>
+<img src="assets/btn_telegram.png" width="31%" alt="Telegram"/>
 
 </div>
 
@@ -95,7 +95,9 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 **La racha.** Es externa (`streak-stats.demolab.com`): se calcula al vuelo cada vez que alguien abre el perfil, así que depende de que ese servicio siga en pie. Es la única pieza de la sección III que no vive en este repo.
 
-**Pendiente.** Poner los enlaces de Discord y X en la sección VI, que ahora apuntan a `#`.
+**La correspondencia.** Los tres botones de la sección VI son imágenes propias (`assets/btn_*.png`), no insignias de `shields.io`: ni dependen de un tercero ni traen tipografía ajena. Vinieron ya con el fondo en `#0d1117`, así que no hubo que retocarlos.
+
+**Pendiente.** Enlazar los botones de Instagram y Telegram. De momento se muestran sin enlace a propósito: es preferible a un `#` que no lleva a ninguna parte, que es como estaban antes los de Discord y X.
 
 </details>
 
