@@ -69,8 +69,8 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 <div align="center">
 
 <a href="https://github.com/MrMaxpasa"><img src="assets/btn_github.png" width="31%" alt="GitHub"/></a>
-<img src="assets/btn_instagram.png" width="31%" alt="Instagram"/>
-<img src="assets/btn_telegram.png" width="31%" alt="Telegram"/>
+<a href="https://www.instagram.com/mister.maxpasa/"><img src="assets/btn_instagram.png" width="31%" alt="Instagram"/></a>
+<a href="https://t.me/MrMaxpasa"><img src="assets/btn_telegram.png" width="31%" alt="Telegram"/></a>
 
 </div>
 
@@ -97,7 +97,7 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 **La correspondencia.** Los tres botones de la sección VI son imágenes propias (`assets/btn_*.png`), no insignias de `shields.io`: ni dependen de un tercero ni traen tipografía ajena. Vinieron ya con el fondo en `#0d1117`, así que no hubo que retocarlos.
 
-**Pendiente.** Enlazar los botones de Instagram y Telegram. De momento se muestran sin enlace a propósito: es preferible a un `#` que no lleva a ninguna parte, que es como estaban antes los de Discord y X.
+**Pendiente.** Nada por ahora. Los tres botones de la sección VI llevan ya su enlace.
 
 </details>
 
