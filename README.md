@@ -85,7 +85,9 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 **Paleta.** Oro `#D4AF37` · oro claro `#F3D77A` · arena `#F5E6C8` · carbón `#0d1117`.
 
-**Tipografía.** En los SVG, Georgia con reserva a Times New Roman y Liberation Serif. La renderiza el navegador de quien mire el perfil, así que en sistemas sin ninguna de las tres caerá a la serif por defecto. El texto del banner va incrustado en la imagen, así que ahí no depende de nada.
+**Tipografía.** En los SVG, Times New Roman con reserva a Times, Liberation Serif y Nimbus Roman: trazo fino y contrastado, versales y mucho tracking, que es lo más cerca que se puede quedar de la letra del banner con fuentes que estén en casi todas las máquinas. La renderiza el navegador de quien mire el perfil, así que en un sistema sin ninguna de las cuatro caerá a la serif por defecto. El texto del banner va incrustado en la imagen, así que ahí no depende de nada.
+
+**Lo que no se puede unificar.** GitHub borra el CSS del README —`<style>` sale escapado como texto y los atributos `style` se eliminan al sanear el HTML—, así que no hay forma de imponer una tipografía a todo el documento. Los títulos de sección y la nota del catálogo van con la fuente de GitHub, y las insignias, los iconos y la racha traen la suya. Solo se controla la letra de lo que va dentro de un SVG o un PNG.
 
 **La serpiente.** La genera `.github/workflows/snake.yml` con [Platane/snk](https://github.com/Platane/snk) y se publica en la rama `output`. Corre cada noche a las 03:00 UTC y se puede lanzar a mano desde la pestaña *Actions*.
 

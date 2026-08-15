@@ -11,7 +11,9 @@ const ORO = "#D4AF37";
 const ORO_CLARO = "#F3D77A";
 const ARENA = "#F5E6C8";
 const CARBON = "#0d1117";
-const SERIF = "Georgia, 'Times New Roman', 'Liberation Serif', serif";
+// Times por delante de Georgia: tiene el trazo mas fino y contrastado, que es
+// lo que acerca la lamina a la letra del banner de cabecera.
+const SERIF = "'Times New Roman', Times, 'Liberation Serif', 'Nimbus Roman', serif";
 
 function escapar(valor) {
   return String(valor)
@@ -87,19 +89,19 @@ export async function recoger(login, token) {
 
 // --- Piezas de dibujo ------------------------------------------------------
 
-function cifra(x, y, valor, tamano) {
+function cifra(x, y, valor, tamano, tracking) {
   return `<text x="${x}" y="${y}" text-anchor="middle" font-family="${SERIF}" ` +
-    `font-size="${tamano}" fill="${ORO_CLARO}">${escapar(valor)}</text>`;
+    `font-size="${tamano}" letter-spacing="${tracking}" fill="url(#oro)">${escapar(valor)}</text>`;
 }
 
 function rotulo(x, y, texto) {
   return `<text x="${x}" y="${y}" text-anchor="middle" font-family="${SERIF}" ` +
-    `font-size="14" letter-spacing="4" fill="${ARENA}" opacity="0.65">${escapar(texto)}</text>`;
+    `font-size="12.5" letter-spacing="5" fill="${ARENA}" opacity="0.7">${escapar(texto)}</text>`;
 }
 
 function apunte(x, y, texto) {
   return `<text x="${x}" y="${y}" text-anchor="middle" font-family="${SERIF}" ` +
-    `font-size="11.5" letter-spacing="1.5" fill="${ARENA}" opacity="0.42">${escapar(texto)}</text>`;
+    `font-size="10" letter-spacing="2" fill="${ORO}" opacity="0.5">${escapar(texto)}</text>`;
 }
 
 function hairline(x, y1, y2) {
@@ -119,21 +121,31 @@ export function laminaHallazgos(datos) {
     { valor: numero(datos.commits), rotulo: "COMMITS", apunte: "últimos doce meses" },
     { valor: numero(datos.pullRequests), rotulo: "PULL REQUESTS", apunte: "últimos doce meses" },
     { valor: numero(datos.estrellas), rotulo: "ESTRELLAS", apunte: "recibidas" },
-    { valor: datos.lenguaje, rotulo: "LENGUAJE", apunte: "el más repetido", tamano: 30 },
+    // El nombre del lenguaje es el unico valor que no es una cifra: en versal y
+    // al cuerpo de las demas se comeria el filete de al lado.
+    { valor: datos.lenguaje, rotulo: "LENGUAJE", apunte: "el más repetido", tamano: 21, tracking: 1.5 },
     { valor: String(datos.alta.getUTCFullYear()), rotulo: "EN GITHUB", apunte: antiguedad },
   ];
 
   const cuerpo = piezas.map((pieza, i) => {
     const x = 150 + i * 180;
-    return cifra(x, 108, pieza.valor, pieza.tamano ?? 42) +
-      "\n  " + rotulo(x, 145, pieza.rotulo) +
-      "\n  " + apunte(x, 167, pieza.apunte);
+    return cifra(x, 106, pieza.valor.toUpperCase(), pieza.tamano ?? 44, pieza.tracking ?? 4) +
+      "\n  " + rotulo(x, 143, pieza.rotulo) +
+      "\n  " + apunte(x, 166, pieza.apunte.toUpperCase());
   }).join("\n  ");
 
   const separadores = [240, 420, 600, 780, 960]
     .map((x) => hairline(x, 62, 180)).join("\n  ");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" role="img" aria-label="Hallazgos: ${escapar(datos.repositorios)} repositorios propios, ${escapar(datos.commits)} commits y ${escapar(datos.pullRequests)} pull requests en los últimos doce meses, ${escapar(datos.estrellas)} estrellas, lenguaje más repetido ${escapar(datos.lenguaje)}, en GitHub desde ${escapar(datos.alta.getUTCFullYear())}">
+
+  <defs>
+    <linearGradient id="oro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${ORO_CLARO}"/>
+      <stop offset="0.55" stop-color="${ORO}"/>
+      <stop offset="1" stop-color="#A8822C"/>
+    </linearGradient>
+  </defs>
 
   <rect width="1200" height="230" fill="${CARBON}"/>
 
@@ -147,7 +159,8 @@ export function laminaHallazgos(datos) {
   ${separadores}
 
   <g stroke="${ORO}" stroke-linecap="round">
-    <path d="M60 200 L1140 200" stroke-width="0.8" opacity="0.35"/>
+    <path d="M60 195 L1140 195" stroke-width="1.1" opacity="0.5"/>
+    <path d="M60 200 L1140 200" stroke-width="0.6" opacity="0.25"/>
   </g>
 
 </svg>
