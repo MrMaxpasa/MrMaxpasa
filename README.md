@@ -68,6 +68,8 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 <div align="center">
 
+<a href="https://mrmaxpasa.github.io/"><img src="assets/btn_portfolio.png" width="63%" alt="Portfolio — mrmaxpasa.github.io"/></a>
+
 <a href="https://github.com/MrMaxpasa"><img src="assets/btn_github.png" width="31%" alt="GitHub"/></a>
 <a href="https://www.instagram.com/mister.maxpasa/"><img src="assets/btn_instagram.png" width="31%" alt="Instagram"/></a>
 <a href="https://t.me/MrMaxpasa"><img src="assets/btn_telegram.png" width="31%" alt="Telegram"/></a>
@@ -95,9 +97,9 @@ Desarrollador de aplicaciones multiplataforma. Construyo apps pensadas para dura
 
 **La racha.** Es externa (`streak-stats.demolab.com`): se calcula al vuelo cada vez que alguien abre el perfil, así que depende de que ese servicio siga en pie. Es la única pieza de la sección III que no vive en este repo.
 
-**La correspondencia.** Los tres botones de la sección VI son imágenes propias (`assets/btn_*.png`), no insignias de `shields.io`: ni dependen de un tercero ni traen tipografía ajena. Vinieron ya con el fondo en `#0d1117`, así que no hubo que retocarlos.
+**La correspondencia.** Los cuatro botones de la sección VI son imágenes propias (`assets/btn_*.png`), no insignias de `shields.io`: ni dependen de un tercero ni traen tipografía ajena. Vinieron ya con el fondo en `#0d1117`, así que no hubo que retocarlos. El de **Portfolio** se montó después, sobre el mismo cartucho: se vació el de GitHub repitiendo una columna limpia del rayado interior —las líneas son horizontales, así que el parche no se nota— y encima se compuso el rótulo en Times de 56 px con 12 px de tracking, que es lo que usan los otros tres, y un obelisco dibujado a trazo, por no repetir el papiro de Instagram. Va al 63 % y en su propia línea: es el enlace que importa, y la jerarquía debe verse.
 
-**Pendiente.** Nada por ahora. Los tres botones de la sección VI llevan ya su enlace.
+**Pendiente.** Nada por ahora. Los cuatro botones de la sección VI llevan ya su enlace.
 
 </details>
 
